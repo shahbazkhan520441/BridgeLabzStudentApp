@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class FlipCoin {
 
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
 		Random random = new Random();
 
@@ -24,6 +25,7 @@ public class FlipCoin {
 
 		// Flip the coin 'numberOfFlips' times
 		for (int i = 0; i < numberOfFlips; i++) {
+			System.out.println(random.nextDouble());
 			if (random.nextDouble() < 0.5) {
 				tailsCount++;
 			} else {
