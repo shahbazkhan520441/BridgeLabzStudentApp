@@ -2,7 +2,7 @@ package logicalprogrames;
 
 import java.util.Scanner;
 
-public class Stopwatch {
+public class stopwatch {
     private long startTime;
     private long endTime;
 
@@ -25,7 +25,7 @@ public class Stopwatch {
     }
 
     public static void main(String[] args) {
-        Stopwatch stopwatch = new Stopwatch();
+        stopwatch stopwatch = new stopwatch();
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Press '1' to start the stopwatch");
