@@ -18,7 +18,7 @@ public static void main(String[] args) {
 
 	Pattern pattern = Pattern.compile("\\d+");
 	Matcher matcher = pattern.matcher("abc123def456");
-	boolean found = matcher.find(3); // starts searching at index 3
+	boolean found = matcher.find(1); // starts searching at index 3
 	System.out.println(found);
 	
 //	matcher.find();

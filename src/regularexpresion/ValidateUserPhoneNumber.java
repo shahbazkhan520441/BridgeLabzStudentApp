@@ -11,7 +11,8 @@ public class ValidateUserPhoneNumber {
         
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(input);
-        
+        boolean b = matcher.find();
+        System.out.println(b);
         if (matcher.matches()) {
             System.out.println("Valid phone number"+"  :"+input);
         } else {
